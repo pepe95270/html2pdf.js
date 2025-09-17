@@ -8691,7 +8691,7 @@ _worker_js__WEBPACK_IMPORTED_MODULE_8__["default"].prototype.toContainer = funct
         var pad = (0,_utils_js__WEBPACK_IMPORTED_MODULE_9__.createElement)('div', {
           style: {
             display: 'block',
-            height: pxPageHeight - clientRect.top % pxPageHeight + 'px'
+            height: 10 + pxPageHeight - clientRect.top % pxPageHeight + 'px'
           }
         });
         el.parentNode.insertBefore(pad, el);
